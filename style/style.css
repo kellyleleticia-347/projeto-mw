@@ -5,7 +5,7 @@
 }
 
  *{
-    margin: 0px;
+    margin: 0px; 
     padding: 0px;
     
  }
@@ -34,6 +34,9 @@ main{
     display: block;
 }
 
+li{
+    
+}
 
 ul#fotos li{
     width: 200px;
