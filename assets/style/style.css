@@ -1,0 +1,52 @@
+@charset "UTF-8";
+@font-face{
+    font-family: "Cinzel";
+    src: url('../fonts/Cinzel-Bold.ttf') format(truetype);
+}
+
+ *{
+    margin: 0px;
+    padding: 0px;
+    
+ }
+
+ body{
+    font-family: "Cinzel";
+ }
+ head{
+    
+ }
+ h1{
+    text-align: center;
+    padding: 7px;
+ }
+a{
+    text-decoration: none;
+    color: #000;
+    padding-left: 40px;
+    
+    
+   
+}
+main{
+    width: 500px;
+    margin: auto;
+    display: block;
+}
+
+
+ul#fotos li{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 10px;
+    box-shadow: 3px 3px 5px rgb(155, 148, 148) ;
+}
+footer{
+    
+        clear: both;
+        border-top:3px solid black ;
+        text-align: center;
+        background-color: ;
+     
+}
