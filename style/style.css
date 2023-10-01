@@ -12,11 +12,11 @@
 
  body{
     font-family: "Cinzel";
-    background-color: rgb(158, 77, 10);
+   
  }
- head{
-    background-color: chocolate;
- }
+ 
+   
+ 
  h1{
     text-align: center;
     padding: 7px;
@@ -35,15 +35,40 @@ main{
     margin: auto;
     display: block;
 }
-
+ul#fotos{
+    width:600px ;
+    margin: 0px;
+    padding:30px ;
+    overflow: hidden;
+    list-style: none;
+}
 
 
 ul#fotos li{
-    width: 230px;
-    height: 230px;
+    width: 200px;
+    height: 200px;
     float: left;
     margin: 10px;
-    box-shadow: 3px 3px 5px rgb(155, 148, 148) ;
+    box-shadow: 3px 3px 5px rgba(7, 7, 7, 0.425) ;
+    
+}
+li#foto01{
+    background: url(../img/img01.jpg) no-repeat;
+}
+li#foto02{
+    background: url(../img/img02.jpg) no-repeat;
+}
+li#foto03{
+    background: url(../img/img03.jpg) no-repeat;
+}
+li#foto04{
+    background: url(../img/img04.jpg) no-repeat;
+}
+li#foto05{
+    background: url(../img/img05.jpg) no-repeat;
+}
+li#foto06{
+    background: url(../img/img06.jpg) no-repeat;
 }
 footer{
     
